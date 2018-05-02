@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(220,220,220);
+  font-family: 'Ubuntu', sans-serif;
+  color: #393E46;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  color: red;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #232931;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+h3 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #232931;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  border: 1px;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 5px 5px 15px 1px grey;
+}
+
+.card1 {
+  text-align: center;
+  background-color: white;
+  border: 1px;
+  padding: 5px;
+  margin: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 5px 5px 15px 1px grey;
+}
+
+.img_circle {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: silver;
+  border-width: 5;
+}
+
+.btn-red {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: red;
+  width: 50%;
+  margin-left: 160;
+}
+
+
+table, th, td {
+   border: 5px solid white;
+}
+.list_inline {
+  list-style-type: none;
+}
+.list_inline li {
+    display: inline;
+    padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+/*font-family: 'Ubuntu', sans-serif;
+font-family: 'Titillium Web', sans-serif;*/
